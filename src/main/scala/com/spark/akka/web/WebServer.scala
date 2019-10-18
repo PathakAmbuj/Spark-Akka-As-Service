@@ -1,8 +1,8 @@
-package com.spoddutur.web
+package com.spark.akka.web
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity}
 import akka.http.scaladsl.server.{HttpApp, Route}
-import com.spoddutur.spark.SparkFactory
+import com.spark.akka.spark.SparkFactory
 
 /**
  * Http Server definition
@@ -11,6 +11,7 @@ import com.spoddutur.spark.SparkFactory
  * 2. version - http://host:port/version - tells "spark version"
  * 3. activeStreams - http://host:port/activeStreams - tells how many spark streams are active currently
  * 4. count - http://host:port/count - random spark job to count a seq of integers
+ * 5. submitJob - http://host:port/submitJob - submit job on remote or local spark cluster
  */
 object WebServer extends HttpApp {
 

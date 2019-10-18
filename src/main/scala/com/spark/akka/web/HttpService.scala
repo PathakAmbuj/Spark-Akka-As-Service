@@ -1,6 +1,6 @@
-package com.spoddutur.web
+package com.spark.akka.web
 
-import com.spoddutur.spark.SparkFactory
+import com.spark.akka.spark.SparkFactory
 import org.apache.spark.launcher.SparkLauncher
 
 /**

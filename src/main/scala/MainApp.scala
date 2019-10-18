@@ -1,6 +1,6 @@
 import akka.http.scaladsl.settings.ServerSettings
-import com.spoddutur.util.AppConfig
-import com.spoddutur.web.WebServer
+import com.spark.akka.util.AppConfig
+import com.spark.akka.web.WebServer
 import com.typesafe.config.ConfigFactory
 
 object MainApp extends App {

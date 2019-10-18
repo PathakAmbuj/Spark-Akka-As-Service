@@ -1,6 +1,6 @@
-package com.spoddutur.spark
+package com.spark.akka.spark
 
-import com.spoddutur.util.AppConfig
+import com.spark.akka.util.AppConfig
 import org.apache.spark.sql.SparkSession
 
 /**

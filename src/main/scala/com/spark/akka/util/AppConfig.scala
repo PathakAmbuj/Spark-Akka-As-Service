@@ -1,4 +1,4 @@
-package com.spoddutur.util
+package com.spark.akka.util
 
 import com.typesafe.config.{Config, ConfigFactory}
 
